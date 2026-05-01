@@ -16,7 +16,10 @@ GenesisCore App / Functions monorepo scaffold (PR1).
 1. Install Flutter SDK (stable).
 2. `cd app`
 3. `flutter pub get`
-4. `flutter run`
+4. `flutter analyze`
+5. `flutter run`
+
+Note: Firebase is intentionally kept as a placeholder in PR1. Run FlutterFire configuration before enabling Firebase initialization in `main.dart`.
 
 ## Functions setup
 1. Install Node.js 20+
@@ -24,6 +27,8 @@ GenesisCore App / Functions monorepo scaffold (PR1).
 3. `npm install`
 4. `npm run build`
 5. `npm run serve`
+
+Generated output under `functions/lib/` is not tracked. Build from `functions/src/`.
 
 ## Current status
 Implemented in PR1:
