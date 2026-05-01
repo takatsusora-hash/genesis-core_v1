@@ -1,0 +1,12 @@
+dart_tool
+flutter_plugins
+flutter_plugins_dependencies
+packages_file
+build
+coverage
+android_local_properties
+ios_generated_xcconfig
+ios_flutter_export_environment
+idea_folder
+vscode_folder
+iml_files
